@@ -3,9 +3,9 @@
 <a href="https://github.com/dulanjayabhanu/OSMS">
 <img src="assets/logo.png" alt="Salpila Main Logo" width="200" height="200">
 </a>
-<h3 align="center">SALPILA</h3>
+<h3 align="center">OSMS</h3>
 <p align="center">
-FULLY FUNCTIONAL E-COMMERCE WEB APPLICATION
+FULLY FUNCTIONAL ONLINE STUDENT MANAGEMENT SYSTEM
 <br/>
 <br/>
 <a href="https://github.com/dulanjayabhanu/OSMS"><strong>Explore the docs »</strong></a>
@@ -37,7 +37,7 @@ FULLY FUNCTIONAL E-COMMERCE WEB APPLICATION
 Salpila is a web application designed for a shop selling 100% handmade products. This application allows customers to view and purchase products online. The shop owner can manage products and handle all payments through the application.
 
 <div>
-  <img src="https://github.com/dulanjayabhanu/Salpila/blob/main/assets/osms_manage_teachers.png" alt="Salpila Home" style="border-radius:50%; margin: 10px;">
+  <img src="https://github.com/dulanjayabhanu/OSMS/blob/main/assets/osms_manage_teachers.png" alt="OSMS Manage Teacher Interface" style="border-radius:50%; margin: 10px;">
 </div>
 
 ## Features
@@ -144,7 +144,7 @@ For any questions or further information, please contact us at:
 - **💬 Project Discussion**: [Talk](https://github.com/your-username/Salpila/discussions)
 
 <div>
-  <img src="https://github.com/dulanjayabhanu/Salpila/blob/main/assets/salpila_home.png" alt="Salpila Home" height="300px">
+  <img src="https://github.com/dulanjayabhanu/OSMS/blob/main/assets/osms_manage_students.png" alt="OSMS Manage Students Interface" style="border-radius:50%; margin: 10px;">
 </div>
 
 Thank you for using Salpila! 🌟
