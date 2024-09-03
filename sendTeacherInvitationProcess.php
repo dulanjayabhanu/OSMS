@@ -68,12 +68,12 @@ if ($teacherRownumber == 1) {
         $mail->IsSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'dulanjayaedu@gmail.com';
-        $mail->Password = 'kutwgcxdoczbdlcu';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('dulanjayaedu@gmail.com', 'OSMS');
-        $mail->addReplyTo('dulanjayaedu@gmail.com', 'OSMS');
+        $mail->setFrom('', 'OSMS');
+        $mail->addReplyTo('', 'OSMS');
         $mail->addAddress($email);
         $mail->isHTML(true);
         $mail->Subject = 'You have been invited to contribute as a teacher to the OSMS';
