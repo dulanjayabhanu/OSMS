@@ -29,12 +29,12 @@ if(isset($_POST["username"])){
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'dulanjayaedu@gmail.com';
-            $mail->Password = 'kutwgcxdoczbdlcu';
+            $mail->Username = '';
+            $mail->Password = '';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-            $mail->setFrom('dulanjayaedu@gmail.com', 'OSMS');
-            $mail->addReplyTo('dulanjayaedu@gmail.com', 'OSMS');
+            $mail->setFrom('', 'OSMS');
+            $mail->addReplyTo('', 'OSMS');
             $mail->addAddress($officerData["email"]);
             $mail->isHTML(true);
             $mail->Subject = 'Academic Officer Signin Verification Code';
