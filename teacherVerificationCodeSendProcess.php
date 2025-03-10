@@ -29,12 +29,12 @@ if(isset($_POST["username"])){
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'dulanjayaedu@gmail.com';
-            $mail->Password = 'kutwgcxdoczbdlcu';
+            $mail->Username = 'example@gmail.com';
+            $mail->Password = '';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-            $mail->setFrom('dulanjayaedu@gmail.com', 'OSMS');
-            $mail->addReplyTo('dulanjayaedu@gmail.com', 'OSMS');
+            $mail->setFrom('example@gmail.com', 'OSMS');
+            $mail->addReplyTo('example@gmail.com', 'OSMS');
             $mail->addAddress($teacherData["email"]);
             $mail->isHTML(true);
             $mail->Subject = 'Teacher Signin Verification Code';
