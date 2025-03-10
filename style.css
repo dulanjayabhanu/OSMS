@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'barlow-regular';
+    src: url("resources/font/BarlowSemiCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'barlow-bold';
+    src: url("resources/font/BarlowSemiCondensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'quicksand-regular';
+    src: url("resources/font/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url("resources/font/Quicksand-Bold.ttf");
+}
+
+* {
+    font-family: 'quicksand-regular';
+    font-size: 14px;
+    color: #100F0F;
+}
+
+.main-background {
+    background-image: url("resources/images/pexels-julia-m-cameron-4145032.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.def-input {
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: #f3faff;
+    box-shadow: 0px 2px 3px 1px rgba(19, 70, 129, 0.2);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.3s;
+}
+
+.def-input:focus {
+    box-shadow: 0px 2px 3px 1px rgba(19, 70, 129, 0.3);
+    transition-duration: 0.3s;
+}
+
+.def-btn {
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    font-family: 'quicksand-bold';
+    background-repeat: no-repeat;
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.08);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.def-btn-primary {
+    transition-duration: 1s;
+    background-image: linear-gradient(24deg, #3972eb, #59ccfa);
+}
+
+.def-btn-primary-active {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #2150b6, #2c99c4);
+}
+
+.def-btn-primary:hover {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #346be0, #50bbe6);
+}
+
+.def-btn-success {
+    transition-duration: 1s;
+    background-image: linear-gradient(24deg, #23bd68, #46ff84);
+}
+
+.def-btn-success:hover {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #25be6a, #3fe978);
+}
+
+.def-btn-warning {
+    transition-duration: 1s;
+    background-image: linear-gradient(24deg, #fbff00, #f7ff81);
+}
+
+.def-btn-warning:hover {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #f2f700, #ebf378);
+}
+
+.def-btn-body {
+    transition-duration: 1s;
+    background-image: linear-gradient(24deg, #cecece, #e4e4e4);
+}
+
+.def-btn-body:hover {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #c4c4c4, #e4e4e4);
+}
+
+.def-btn-danger {
+    transition-duration: 1s;
+    background-image: linear-gradient(24deg, #ff3f3f, #fc9797);
+}
+
+.def-btn-danger:hover {
+    transition-duration: 1s;
+    background-image: linear-gradient(74deg, #f13737, #f08282);
+}
+
+.def-card {
+    background-color: #f2fafffb;
+    border-radius: 24px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.08);
+}
+
+.card-animate {
+    transform: scale(1);
+    transition-duration: 0.3s;
+}
+
+.card-animate:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+}
+
+@keyframes result-card-light {
+    0% {
+        box-shadow: 0px 2px 5px 4px #f1373773;
+    }
+    50% {
+        box-shadow: 0px 2px 5px 4px #9874fa79;
+    }
+    100% {
+        box-shadow: 0px 2px 5px 4px #f137377a;
+    }
+}
